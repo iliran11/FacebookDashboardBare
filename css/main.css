@@ -1,17 +1,47 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #FFF7AA;
+    color: #554D00;
 }
 
-.border {
-  border: medium dashed green;
-}
 .text-center {
-  text-align: center;
+    text-align: center;
 }
+
 .huge-font {
-  font-size: 8em;
+    font-size: 8em;
 }
+
+.information-section {
+    border-right-color: #D4CB6A;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.color-primary-0 {
+    color: #AAA039
+}
+
+
+/* Main Primary color */
+
+.color-primary-1 {
+    color: #FFF7AA
+}
+
+.color-primary-2 {
+    color: #D4CB6A
+}
+
+.color-primary-3 {
+    color: #807615
+}
+
+.color-primary-4 {
+    color: #554D00
+}
+
 
 /* ==========================================================================
    Author's custom styles
