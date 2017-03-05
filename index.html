@@ -11,7 +11,7 @@
 
     </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sass.css">
 
     <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -21,26 +21,26 @@
 
 <body>
     <div class="container text-center">
-        <div class="row">
+        <div class="row upper-border">
             <div class="col-md-4 border information-section">
                 <h3>Your most active Friend</h3>
                 <p>a friend who has the most likes and comments for your posts</p>
-                <div class="row">
-                    <div class="col-md-4 border">
-                        <img src="https://tinyurl.com/j6vf862" alt="">
+                <div class="row padding">
+                    <div class="col-md-3 border no-padding">
+                        <img src="https://tinyurl.com/j6vf862" alt="" class="fit-container">
                     </div>
-                    <div class="col-md-8 border">
+                    <div class="col-md-8 col-md-offset-1 border ">
                         <div class="row">
                             <div class="col-md-12">
                                 <strong id="best-friend-name"> liran cohen</strong>
                             </div>
                             <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="active-friend row ">
+                                    <div class="col-md-5 small-section upper-margin-sm">
                                         <h5>Number of Comments</h5>
                                         <span>389</span>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-5 small-section upper-margin-sm">
                                         <h5>Number of Likes </h5>
                                         <span>4092</span>
                                     </div>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 border information-section">
+            <div class="col-md-4 border information-section ">
                 <h3>Likes Average for Post</h3>
                 <span class="huge-font">53</span>
             </div>
@@ -59,15 +59,20 @@
                 <span class="huge-font">4</span>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 border">.col-md-6</div>
-            <div class="col-md-6 border">.col-md-6</div>
+        <div class="row upper-border">
+            <div class="col-md-6 left-border">
+                <canvas id="myChart1" width="400" height="400"></canvas>
+            </div>
+            <div class="col-md-6 left-border">
+                <canvas id="myChart2" width="400" height="400"></canvas>
+            </div>
         </div>
     </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -1,0 +1,58 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #FFF7AA;
+  color: #554D00; }
+
+.text-center {
+  text-align: center; }
+
+.huge-font {
+  font-size: 8em; }
+
+.small-section {
+  background-color: #D4CB6A;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow: auto; }
+  .small-section h5 {
+    text-decoration: underline; }
+
+.information-section {
+  border-left: 1px solid #554D00; }
+
+.padding {
+  padding: 10px; }
+
+.no-padding {
+  padding: 0; }
+
+.upper-border {
+  border-top: 1px solid #554D00; }
+
+.left-border {
+  border-left: 1px solid #554D00; }
+
+.upper-margin-sm {
+  margin-top: 10px; }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .active-friend {
+    height: 100px; }
+    .active-friend > div {
+      height: 100%; }
+    .active-friend h5 {
+      height: 50%;
+      text-decoration: none;
+      border-bottom: 1px solid black; } }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .active-friend > h5 {
+    height: 40%; } }
+/* close commented backslash hack */
+
+/*# sourceMappingURL=sass.css.map */
